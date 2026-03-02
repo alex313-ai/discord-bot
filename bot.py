@@ -53,4 +53,6 @@ async def check(ctx, message_id: int):
         mentions = " ".join(member.mention for member in not_reacted)
         await ctx.send(f"The following @Blue Youth members have not reacted:\n{mentions}")
 
-bot.run(os.getenv("MTQ3NzI3MDk1NzIwMTY4NjU4OQ.GtaFGM.8QThxLz7w_GGKkU6yRLsA1RpDnIpjWwDEzdTHo"))
+bot.run(os.getenv("TOKEN"))
+
+
